@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aurelle — Hair Serums</title>
+  <meta name="description" content="Aurelle hair serums: repair, shine and root-strength rituals, made with argan, keratin and botanicals.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div id="pageLoader" class="page-loader" role="status" aria-live="polite">
+    <div class="spinner" aria-hidden="true"></div>
+    <span class="sr-only">Loading Aurelle</span>
+  </div>
+  <div id="netBanner" class="net-banner" role="alert" hidden>You're offline. We'll reconnect automatically.</div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="utility">
+      <div class="wrap utility__in">
+        <button id="authBtn" class="util-link" type="button">Sign in</button>
+        <button id="wishBtn" class="util-link" type="button">Wishlist</button>
+        <button id="cartBtn" class="util-link" type="button" aria-label="Open cart">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3 4h2l2.4 11h10.2L20 7H6.2"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg>
+          My Cart <span class="badge" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+    <nav class="nav wrap" aria-label="Main">
+      <a class="logo" href="#top" aria-label="Aurelle home"><svg width="22" height="22" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6c9 13 16 22 16 31a16 16 0 0 1-32 0c0-9 7-18 16-31z" fill="currentColor"/></svg><span>AURELLE</span><small>Hair Serum Co.</small></a>
+      <ul class="nav__links">
+        <li><a href="#serums">Our Serums</a></li>
+        <li><a href="#stores">Stores</a></li>
+        <li><a href="#story">About Us</a></li>
+        <li><a href="#favorites">Shop</a></li>
+        <li><a href="#stores" class="nav__search" aria-label="Find a store"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__art" data-parallax="0.25"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">The Midnight Ritual</p>
+        <h1 class="hero__title">Make a date<br>with shine</h1>
+        <p class="hero__sub">Aurelle Midnight Repair, the overnight serum for hair that has been through it all.</p>
+        <a class="btn btn--cta magnetic" href="#serums">Shop the ritual</a>
+      </div>
+      <div class="scroll-ind" aria-hidden="true"><span>Scroll</span><i></i></div>
+    </section>
+
+    <section class="split" id="serums">
+      <div class="stage" id="bottleStage" tabindex="0" role="img" aria-label="Interactive 3D hair serum bottle. Drag or use arrow keys to rotate.">
+        <img class="stage__fallback" id="stageFallback" src="/img/bottle-amber.svg" alt="Aurelle hair serum bottle" width="240" height="560" hidden>
+        <div class="stage__hint" aria-hidden="true">Drag to spin</div>
+      </div>
+      <div class="split__art" data-parallax="-0.06"></div>
+      <div class="split__panel">
+        <p class="eyebrow">Signature collection</p>
+        <div id="featBlock" class="feat">
+          <div class="sk sk--line sk--w60"></div>
+          <div class="sk sk--title"></div>
+          <div class="sk sk--line"></div>
+          <div class="sk sk--line sk--w80"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="craft" id="story">
+      <img class="craft__leaf" src="/img/botanical.svg" alt="" loading="lazy" width="1200" height="500">
+      <div class="wrap narrow reveal">
+        <h2 class="h-xl">Dedicated to the craft</h2>
+        <p class="lead">Started in 2019 by a small group of hair-science nerds in a Jaipur kitchen, we've spent years refining serums that actually repair. Lightweight, fragrance-smart and honest about what's inside. After all, we believe life is too short for dull hair.</p>
+      </div>
+
+      <div class="wrap" id="favorites">
+        <p class="eyebrow eyebrow--line reveal"><span>Featured fan favorites</span></p>
+        <div id="productGrid" class="grid3" aria-live="polite"></div>
+        <p class="center reveal"><a class="link-ul" href="#favorites">Explore all serums</a></p>
+      </div>
+    </section>
+
+    <section class="benefits wrap" aria-labelledby="benTitle">
+      <h2 class="h-lg reveal" id="benTitle">Why Aurelle</h2>
+      <div class="benefits__grid">
+        <article class="benefit reveal"><span class="benefit__ico" aria-hidden="true">✦</span><h3>Visible repair</h3><p>Keratin peptides fill damaged gaps so strands look and feel stronger.</p></article>
+        <article class="benefit reveal"><span class="benefit__ico" aria-hidden="true">☼</span><h3>Heat shield</h3><p>Vitamin E and argan protect from styling heat up to 200°C.</p></article>
+        <article class="benefit reveal"><span class="benefit__ico" aria-hidden="true">◌</span><h3>Zero greasy feel</h3><p>Fast-absorbing, featherlight formulas that never weigh hair down.</p></article>
+        <article class="benefit reveal"><span class="benefit__ico" aria-hidden="true">❀</span><h3>Botanical, honest</h3><p>No parabens, no mineral oil. Cruelty-free and dermatologist tested.</p></article>
+      </div>
+    </section>
+
+    <section class="ingredients" aria-labelledby="ingTitle">
+      <div class="wrap">
+        <h2 class="h-lg reveal" id="ingTitle">What's inside <small>(tap a card)</small></h2>
+        <div id="ingredientGrid" class="grid-ing" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="ba wrap" aria-labelledby="baTitle">
+      <h2 class="h-lg reveal" id="baTitle">Before &amp; after</h2>
+      <div class="ba__box reveal" id="baBox">
+        <img class="ba__after" src="/img/hair-after.svg" alt="Hair after using Aurelle: smooth, aligned and glossy" loading="lazy" width="800" height="520">
+        <img class="ba__before" src="/img/hair-before.svg" alt="Hair before: frizzy and uneven" loading="lazy" width="800" height="520">
+        <span class="ba__tag ba__tag--l">Before</span><span class="ba__tag ba__tag--r">After</span>
+        <span class="ba__line" aria-hidden="true"></span>
+        <input id="baRange" class="ba__range" type="range" min="0" max="100" value="50" aria-label="Reveal before and after comparison">
+      </div>
+      <p class="muted center">Illustrative visual. Results vary with hair type and routine.</p>
+    </section>
+
+    <section class="how wrap" aria-labelledby="howTitle">
+      <h2 class="h-lg reveal" id="howTitle">How to use</h2>
+      <ol class="steps">
+        <li class="reveal"><b>01</b><h3>Dry or towel-dry</h3><p>Start with clean hair, damp or dry.</p></li>
+        <li class="reveal"><b>02</b><h3>2–3 drops</h3><p>Warm between palms. A little goes a long way.</p></li>
+        <li class="reveal"><b>03</b><h3>Mid-lengths to ends</h3><p>Smooth through. For roots serums, massage the scalp.</p></li>
+        <li class="reveal"><b>04</b><h3>Style or sleep</h3><p>No rinse. Wake up to shine.</p></li>
+      </ol>
+    </section>
+
+    <section class="reviews" aria-labelledby="revTitle">
+      <div class="wrap">
+        <h2 class="h-lg reveal" id="revTitle">Loved by real heads of hair</h2>
+        <div id="reviewGrid" class="grid3" aria-live="polite"></div>
+        <form id="reviewForm" class="review-form" hidden>
+          <h3>Write a review</h3>
+          <label>Product <select name="productId" id="reviewProduct" required></select></label>
+          <label>Rating <select name="rating"><option value="5">★★★★★</option><option value="4">★★★★</option><option value="3">★★★</option><option value="2">★★</option><option value="1">★</option></select></label>
+          <label>Title <input name="title" required minlength="2" maxlength="80"></label>
+          <label>Your review <textarea name="body" required minlength="5" maxlength="800" rows="3"></textarea></label>
+          <button class="btn btn--dark magnetic" type="submit">Post review</button>
+          <p class="form-msg" role="status"></p>
+        </form>
+        <p id="reviewHint" class="muted center">Sign in to share your experience.</p>
+      </div>
+    </section>
+
+    <section class="faq wrap" aria-labelledby="faqTitle">
+      <h2 class="h-lg reveal" id="faqTitle">Questions, answered</h2>
+      <details class="reveal"><summary>Is it suitable for all hair types?</summary><p>Yes. The formulas are lightweight and work on straight, wavy, curly and coily hair. Patch-test first if you have sensitive skin.</p></details>
+      <details class="reveal"><summary>How often should I use it?</summary><p>Midnight Repair nightly or 3–4 nights a week. Golden Gloss on styling days. Emerald Root daily on the scalp.</p></details>
+      <details class="reveal"><summary>Will it make my hair oily?</summary><p>Used as directed (2–3 drops), no. Avoid applying directly to roots unless using Emerald Root.</p></details>
+      <details class="reveal"><summary>How long does delivery take?</summary><p>Usually 3–6 working days across India. You can pay online or on delivery.</p></details>
+    </section>
+
+    <section class="stores" id="stores">
+      <div class="wrap narrow center">
+        <h2 class="h-md reveal">Find a store near <span class="stores__hl">your pincode</span></h2>
+        <form id="storeForm" class="store-form" novalidate>
+          <label class="sr-only" for="pin">Pincode</label>
+          <input id="pin" name="pincode" inputmode="numeric" pattern="\d{6}" maxlength="6" placeholder="YOUR PINCODE" autocomplete="postal-code">
+          <button type="submit" aria-label="Search stores"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        </form>
+        <div id="storeResults" class="store-results" aria-live="polite"></div>
+        <a class="link-arrow link-arrow--light" href="#favorites">Get it delivered →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div><strong class="logo-sm">AURELLE</strong><p class="muted-d">Hair serums made with care. © 2026 Aurelle.</p></div>
+      <form id="newsForm" class="news" novalidate>
+        <label for="newsEmail">Get rituals &amp; offers</label>
+        <div><input id="newsEmail" type="email" required maxlength="254" placeholder="you@email.com" autocomplete="email"><button class="btn btn--cta" type="submit">Join</button></div>
+        <p class="form-msg" role="status"></p>
+      </form>
+    </div>
+  </footer>
+
+  <button id="stickyBuy" class="sticky-buy btn btn--cta" type="button" hidden>Buy now</button>
+
+  <aside id="cartDrawer" class="drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer__head"><h2>Your cart</h2><button type="button" class="icon-btn" id="cartClose" aria-label="Close cart">✕</button></div>
+    <div id="cartItems" class="drawer__body"></div>
+    <div class="drawer__foot"><p class="drawer__total">Total <b id="cartTotal">₹0</b></p><button id="checkoutBtn" class="btn btn--cta btn--block" type="button">Checkout</button></div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <dialog id="authDialog" class="dlg" aria-labelledby="authTitle">
+    <form id="authForm" method="dialog" novalidate>
+      <h2 id="authTitle">Sign in</h2>
+      <label id="nameRow" hidden>Name <input name="name" autocomplete="name" maxlength="60"></label>
+      <label>Email <input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+      <label>Password <input name="password" type="password" required autocomplete="current-password" minlength="10" maxlength="128"></label>
+      <p class="muted" id="pwHint" hidden>Min 10 characters with upper, lower case and a number.</p>
+      <p class="form-msg" role="alert"></p>
+      <div class="dlg__actions"><button type="button" class="btn btn--ghost" id="authCancel">Cancel</button><button class="btn btn--dark" type="submit" id="authSubmit">Sign in</button></div>
+      <p class="center"><button type="button" class="link-ul" id="authToggle">New here? Create an account</button></p>
+    </form>
+  </dialog>
+
+  <dialog id="checkoutDialog" class="dlg" aria-labelledby="coTitle">
+    <form id="checkoutForm" method="dialog" novalidate>
+      <h2 id="coTitle">Delivery details</h2>
+      <label>Full name <input name="name" required maxlength="80" autocomplete="name"></label>
+      <label>Email <input name="email" type="email" required maxlength="254" autocomplete="email"></label>
+      <label>Mobile <input name="phone" inputmode="numeric" required maxlength="10" pattern="[6-9]\d{9}" autocomplete="tel-national"></label>
+      <label>Address <input name="line1" required maxlength="160" autocomplete="street-address"></label>
+      <div class="two"><label>City <input name="city" required maxlength="60" autocomplete="address-level2"></label><label>Pincode <input name="pincode" required inputmode="numeric" maxlength="6" pattern="\d{6}" autocomplete="postal-code"></label></div>
+      <p class="form-msg" role="alert"></p>
+      <div class="dlg__actions"><button type="button" class="btn btn--ghost" id="coCancel">Back</button><button class="btn btn--cta" type="submit" id="coSubmit">Place order</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="wishDialog" class="dlg" aria-labelledby="wishTitle">
+    <h2 id="wishTitle">Your wishlist</h2>
+    <div id="wishList"></div>
+    <div class="dlg__actions"><button type="button" class="btn btn--dark" id="wishClose">Close</button></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
